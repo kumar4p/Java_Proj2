@@ -22,6 +22,7 @@
 		<tr><td>>Select State  ::</td><td><form:input path="state"/></td></tr>
 		<tr><td>>Select City  ::</td><td><form:input path="city"/></td></tr>
 		<tr><td><input type="reset" value="Reset Form Values"></td>
+		
 			<td><input type="submit" value="Register User"></td></tr>
 	</table>
 	</form:form>
