@@ -34,6 +34,19 @@ public class UnlockingFormController {
 	private UsersManagementRegisterService usersManagementRegisterService;
 	
 	/**
+	 * method name : getUnlockingFormView<br>
+	 *@author KUMAR <br>
+	 *@apiNote This method is to handle incoming request to display unlocking form page on to the browser
+	 *@param model <br>
+	 *@return String <br>
+	 *created Dec 27th 2019
+	 */
+	@RequestMapping(value="/unlockingForm", method = RequestMethod.GET)
+	public String getUnlockingFormView(Model model){
+		logger.debug(this.getClass()+" from getUnlockingFormView()");
+		return null;
+	}//getUnlockingFormView(-)
+	/**
 	 * method name : unlockUserAccount<br>
 	 *@author KUMAR <br>
 	 *@apiNote This method is to handle incoming request to unlock user account
